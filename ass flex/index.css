@@ -1,0 +1,119 @@
+nav{
+   border: 2px solid transparent;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   background-color: lightblue;
+   border-radius: 40px;
+   align-items: center;
+   height: 60px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 50px;
+}
+
+ul li{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.btn-container{
+    font-size: 15px;
+}
+
+.loginbtn{
+    margin-right: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.signupbtn{
+     margin-right: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+ul:hover{
+    cursor: pointer;
+}
+
+ul li:hover{
+    border-bottom: 2px solid blue;
+}
+
+.loginbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+
+.signupbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.oba{
+    border: 2px solid brown;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 40px;
+    background-color: transparent ;
+
+    display: flex;
+}
+
+.leftbox{
+    border: 2px solid brown;
+    padding: 10px;
+    flex: 1;
+}
+
+.rightbox{
+    border: 2px solid brown;
+    padding: 10px;
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+}
+
+.eleft{
+    border: 2px solid brown;
+    padding: 10px;
+}
+
+.ileft{
+    border: 2px solid brown;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.eright{
+    border: 2px solid brown;
+    padding: 10px;
+
+}
